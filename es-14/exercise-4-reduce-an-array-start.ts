@@ -21,7 +21,7 @@ const populations = [
 
 const sumOfPopulations = populations.reduce((total, population) => {
     return total + population;
-}, false);
+}, 0); // si potrebbe creare una variabile initialValue = 0; e metterla appunto al posto dello zero
 
 console.log(sumOfPopulations);
 
